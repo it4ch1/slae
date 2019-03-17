@@ -4,3 +4,9 @@ This repository has been created for completing the requirements of the Security
 
 
 Student SLAE-755
+
+
+## Blog Posts
+
+Assignment 1: http://techinquiry.altervista.org/slae-assignment-1-create-a-bind-shell-shellcode/
+Assignment 2: http://techinquiry.altervista.org/slae-assignment-2-create-a-shell-reverse-tcp-shellcode/
