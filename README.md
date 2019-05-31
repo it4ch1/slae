@@ -12,3 +12,4 @@ Student SLAE-755
 * Assignment 2: http://techinquiry.altervista.org/slae-assignment-2-create-a-shell-reverse-tcp-shellcode/
 * Assignment 3: http://techinquiry.altervista.org/slae-assignment-3-egg-hunter-shellcode/
 * Assignment 4: http://techinquiry.altervista.org/slae-assignment-4-egg-hunter-shellcode/
+* Assignment 5: http://techinquiry.altervista.org/slae-assignment-5-dissecting-msfvenom-shellcodes/
