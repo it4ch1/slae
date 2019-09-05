@@ -13,3 +13,4 @@ Student SLAE-755
 * Assignment 3: http://techinquiry.altervista.org/slae-assignment-3-egg-hunter-shellcode/
 * Assignment 4: http://techinquiry.altervista.org/slae-assignment-4-egg-hunter-shellcode/
 * Assignment 5: http://techinquiry.altervista.org/slae-assignment-5-dissecting-msfvenom-shellcodes/
+* Assignment 6: http://techinquiry.altervista.org/slae-assignment-6-polymorphic-shellcodes/

